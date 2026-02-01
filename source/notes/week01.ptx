@@ -1,35 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="notes-week-01">
-  <title>Week 1</title>
+  <title>Example</title>
 
-  <introduction>
-    <p>
-      This is an outline of the topics we covered in the first week of class.
-    </p>
-  </introduction>
+  <p>
+    Welcome to <pretext/>! According to Pythagoras, <m>a^2 + b^2 = c^2</m>.
+    But he also thought <m>\sqrt{2}</m> was rational, so maybe we shouldn't listen to him.
+  </p>
 
-  <!-- Can also be <handout> instead of <subsection> to get a printable version -->
-  <subsection>
-    <title>Monday 8/22</title>
+  <p>
+    Let's collect some info about squares:
+  </p>
 
-    <p>
-    </p>
-  </subsection>
+  <table>
+    <title>Perfect Squares</title>
 
+    <tabular halign="center">
+      <row header="yes" bottom="minor">
+        <cell><m>n</m></cell>
+        <cell><m>n^2</m></cell>
+      </row>
 
-  <subsection>
-    <title>Wednesday 8/24</title>
+      <row>
+        <cell>1</cell>
+        <cell>1</cell>
+      </row>
 
-    <p>
-    </p>
-  </subsection>
+      <row>
+        <cell>2</cell>
+        <cell>4</cell>
+      </row>
 
+      <row>
+        <cell>3</cell>
+        <cell>9</cell>
+      </row>
 
-  <subsection>
-    <title>Friday 8/26</title>
+      <row>
+        <cell><m>\vdots</m></cell>
+        <cell><m>\vdots</m></cell>
+      </row>
+    </tabular>
+  </table>
 
-    <p>
-    </p>
-  </subsection>
+  <theorem xml:id="thm-Pythagorean">
+    <statement>
+      <p>
+        Suppose a right triangle has side lengths <m>a, b</m> and hypotenuse length <m>c</m>.
+        Then:
+        <md>
+          <mrow> a^2 + b^2 = c^2. </mrow>
+        </md>
+      </p>
+    </statement>
+  </theorem>
 </section>
